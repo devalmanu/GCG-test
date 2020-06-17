@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- Кодировка страницы -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Тестовая страница" />
+	<!-- Заголовок страницы в браузере -->
+	<title>Test page</title>
+	<!-- Шрифт -->
+
+	<!-- Подключаем CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/slick.css" /> -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+
+	<!-- header -->
+	<header class="header fixed" id="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<img src="img/Logo.png" alt="Название компании">
+				</div>
+				<nav class="nav" id="nav">
+					<ul>
+						<a href="tel:+74997777777" class="nav__link">+7(499) 777-77-77</a>
+					</ul>
+					<ul>
+						<a href="tel:+74997777777" class="nav__link">+7(499) 777-77-77</a>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!-- intro -->
+	<div class="offer" id="offer">
+		<div class="container">
+			<div class="offer__inner">
+				<h2 class="offer__title">Форма с кнопкой</h2>
+				<form action="#" method="post" enctype="multipart/form-data">
+					<h1 class="form-text">оставь телефон и получи что-то офигенное</h1>
+					<div>
+						<input name="phone" type="phone" class="form-contact" id="phone" placeholder="Введите номер">
+					</div>
+
+					<div>
+						<button id="contactUs" class="btn btn--red" type="submit">Получить</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- slider -->
+	<section class="slider-section" id="slider">
+		<div class="slider-block">
+			<h2 class="slider__title">Тут у нас слайдер</h2>
+			<div class="slider">
+				<div class="slider__item">
+					<img class="slider__img" src="img/slide/1.jpg" alt="slider-1">
+				</div>
+				<div class="slider__item">
+					<img class="slider__img" src="img/slide/2.jpg" alt="slider-2">
+				</div>
+				<div class="slider__item">
+					<img class="slider__img" src="img/slide/3.jpg" alt="slider-3">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- slider -->
+
+	<!-- text block -->
+	<section class="block">
+		<div class="container">
+			<div class="block-main">
+				<h2 class="block__title">просто текстовый блок</h2>
+				<p class="block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere quis arcu sit
+					amet commodo. Nullam
+					ac dui lacus. Nulla dapibus interdum interdum. Curabitur ut diam nisl. Vivamus libero lacus, viverra at
+					dolor sit amet, commodo faucibus orci. Vivamus laoreet ornare nisi, id pharetra tellus ullamcorper
+					volutpat.
+					Sed lacinia placerat accumsan. Praesent pharetra ipsum scelerisque, sodales urna ut, placerat nulla. Duis
+					nunc urna, semper non arcu ut, sagittis dapibus lorem. Nunc nec urna id velit sodales sodales. Sed
+					porttitor
+					quam eget mollis consequat. Curabitur aliquet nec dui eget aliquet. Nulla in risus ante.</p>
+			</div>
+		</div>
+	</section>
+	<!-- text block -->
+
+	<!-- shop -->
+	<section class="shop">
+		<div class="container">
+			<div class="shop-block">
+				<h2>Калькулятор <br>(стоимость пользователь узнает по телефону)</h2>
+				<div class="shop__inner">
+
+					<div class="shop__item">
+						<div class="shop__img">
+							<img src="img/Works/1.jpg" alt="window-1">
+						</div>
+						<a class="shop__link" href="#wrapper">Одностворчатое</a>
+					</div>
+
+					<div class="shop__item">
+						<div class="shop__img">
+							<img src="img/Works/2.jpg" alt="window-2">
+						</div>
+						<a class="shop__link" href="#">Двухстворчатое</a>
+					</div>
+
+					<div class="shop__item">
+						<div class="shop__img">
+							<img src="img/Works/3.jpg" alt="window-3">
+						</div>
+						<a class="shop__link" href="#">Трехстворчатое</a>
+					</div>
+
+					<div class="shop__item">
+						<div class="shop__img">
+							<img src="img/Works/4.jpg" alt="window-4">
+						</div>
+						<a class="shop__link" href="#">Балконный блок</a>
+					</div>
+
+					<div class="shop__item">
+						<div class="shop__img">
+							<img src="img/Works/5.jpg" alt="window-5">
+						</div>
+						<a class="shop__link" href="#">Остекление балкона</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- shop -->
+	<!-- calc  -->
+	<div class="wrapper" id="wrapper">
+		<div class="container">
+			<div class="calc">
+				<div class="calc__main">
+					<div class="calc__item window">
+
+						<div class="calc__window">
+							<p class="calc-width">ширина</p>
+							<div class="calc-block">
+								<p class="calc-height">высота</p>
+								<img src="img/Works/1-active.jpg" alt="Одностворчатое">
+							</div>
+						</div>
+
+						<div class="window-sizes">
+							<div class="size-block">
+								<p>ширина, см</p>
+								<input class="size" type="text" id="sizeWidth" value="120" placeholder="">
+							</div>
+							<div><span>x</span></div>
+							<div class="size-block">
+								<p>высота, см</p>
+								<input class="size" type="text" id="sizeHeight" value="120" placeholder="">
+							</div>
+							<div id="ploschad"></div>
+							<div id="stoimost"></div>
+						</div>
+
+					</div>
+					<div class="calc__item choice">
+						<h3 class="calc__title">Одностворчатое окно KBE</h3>
+						<form action="#" method="post" enctype="multipart/form-data">
+							<div>
+								<p class="calc__text">1. Критерий выбора</p>
+								<div class="input_list">
+									<div class="input_choice">
+										<input type="radio" name="choice" value="first" id="rb1"><label for="rb1">пункт
+											выбора
+											1</label>
+									</div>
+									<div class="input_choice">
+										<input type="radio" name="choice" value="second" id="rb2"><label for="rb2">пункт выбора
+											2</label>
+									</div>
+									<div class="input_choice">
+										<input type="radio" name="choice" value="third" id="rb3"><label for="rb3">пункт выбора
+											3</label>
+									</div>
+								</div>
+							</div>
+							<div>
+								<p class="calc__text">2. Выберите открывание створки</p>
+								<select class="select-open" id="selectOpen" tabindex="10" name="open">
+									<option value="open">Открывается</option>
+									<option selected value="noOpen">Не открывается</option>
+								</select>
+							</div>
+
+						</form>
+					</div>
+				</div>
+				<div class="calc-button">
+					<input class="btn-numb" tabindex="3" name="userpass" type="tel" placeholder="Введите номер">
+					<button class="btn-calc" tabindex="11" type="submit" onclick="calculate();">Рассчитать</button>
+				</div>
+
+				<div class="cost">
+					<div id="allSize"></div>
+					<div id="cost"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- footer -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="copyright__text">
+				<div>просто</div>
+				<div>скромный футер</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- modal window -->
+	<div class="modal form form-modaltext">
+		<p class="modal_close">X</p>
+		<h3>Ваше сообщение отправлено!</h3>
+	</div>
+	<div class="overlay"></div>
+
+	<!-- javascript -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
