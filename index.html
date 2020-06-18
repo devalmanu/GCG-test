@@ -176,38 +176,41 @@
 						<h3 class="calc__title">Одностворчатое окно KBE</h3>
 						<form action="#" method="post" enctype="multipart/form-data">
 							<div>
-								<p class="calc__text">1. Критерий выбора</p>
-								<div class="input_list">
-									<div class="input_choice">
-										<input type="radio" name="choice" value="first" id="rb1"><label for="rb1">пункт
-											выбора
-											1</label>
-									</div>
-									<div class="input_choice">
-										<input type="radio" name="choice" value="second" id="rb2"><label for="rb2">пункт выбора
-											2</label>
-									</div>
-									<div class="input_choice">
-										<input type="radio" name="choice" value="third" id="rb3"><label for="rb3">пункт выбора
-											3</label>
+								<div>
+									<p class="calc__text">1. Критерий выбора</p>
+									<div class="input_list">
+										<div class="input_choice">
+											<input type="radio" name="choice" value="first" id="rb1"><label for="rb1">пункт
+												выбора
+												1</label>
+										</div>
+										<div class="input_choice">
+											<input type="radio" name="choice" value="second" id="rb2"><label for="rb2">пункт выбора
+												2</label>
+										</div>
+										<div class="input_choice">
+											<input type="radio" name="choice" value="third" id="rb3"><label for="rb3">пункт выбора
+												3</label>
+										</div>
 									</div>
 								</div>
+								<div>
+									<p class="calc__text">2. Выберите открывание створки</p>
+									<select class="select-open" id="selectOpen" name="open">
+										<option value="open">Открывается</option>
+										<option selected value="noOpen">Не открывается</option>
+									</select>
+								</div>
 							</div>
-							<div>
-								<p class="calc__text">2. Выберите открывание створки</p>
-								<select class="select-open" id="selectOpen" name="open">
-									<option value="open">Открывается</option>
-									<option selected value="noOpen">Не открывается</option>
-								</select>
+							<div class="calc-button">
+								<input class="btn-numb" name="userpass" type="tel" placeholder="Введите номер">
+								<button class="btn-calc" type="submit">Рассчитать</button>
 							</div>
 
 						</form>
 					</div>
 				</div>
-				<div class="calc-button">
-					<input class="btn-numb" name="userpass" type="tel" placeholder="Введите номер">
-					<button class="btn-calc" type="submit" onclick="calculate();">Рассчитать</button>
-				</div>
+
 
 				<div class="cost">
 					<div id="allSize"></div>
