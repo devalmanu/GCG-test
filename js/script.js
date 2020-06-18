@@ -29,7 +29,10 @@ $(document).ready(function () {
    });
 });
 
-function calculate() {
+const calculateForm = document.querySelector('.calc__item form');
+
+function calculate(evt) {
+   evt.preventDefault();
    selectOpen = document.getElementById('selectOpen').value;
    switch (selectOpen) {
       case "noOpen":
@@ -55,5 +58,7 @@ function calculate() {
       document.getElementById('cost').innerHTML = "Стоимость равна: " + cost + " бел. руб.";
    }
 }
+
+calculateForm.addEventListener('submit', calculate);
 
 
